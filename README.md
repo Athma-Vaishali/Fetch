@@ -39,7 +39,11 @@ Here's a walkthrough of implemented user stories:
 ## Wireframes
 
 ### Digital Wireframes & Mockups
-<img src="https://github.com/Athma-Vaishali/Fetch/blob/master/fetch_wireframe.JPG" height=250>
+<img src="https://github.com/Athma-Vaishali/Fetch/blob/master/fetch_wireframe.JPG" height=500>
+
+## Open-source libraries used
+
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 
 ## Schema 
 ### Models
@@ -56,24 +60,17 @@ Retrieved from provided Json
 #### List of network requests by screen
    - Main Screen
         - (Read/GET) Retrieve items from provided Json            
-               ```swift  
-        AsyncHttpClient client = new AsyncHttpClient();
-        client.get(URL, new JsonHttpResponseHandler() {
-            @Override
-            public void onSuccess(int i, Headers headers, JSON json) {
-                    Log.d(TAG,"onSuccess");
-                    JSONArray jsonArray=json.jsonArray;
-                    items.addAll(...));
-                }
-            
-            @Override
-            public void onFailure(int i, Headers headers, String s, Throwable throwable) {
-                Log.d(TAG,"onFailure",throwable);
-            }
-        });
-        ```
-
-## Open-source libraries used
-
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-
+   ```swift  
+   AsyncHttpClient client = new AsyncHttpClient();
+   client.get(URL, new JsonHttpResponseHandler() {
+   @Override
+   public void onSuccess(int i, Headers headers, JSON json) {
+          Log.d(TAG,"onSuccess");
+          JSONArray jsonArray=json.jsonArray;
+          items.addAll(...));
+   }      
+   @Override
+   public void onFailure(int i, Headers headers, String s, Throwable throwable) {
+          Log.d(TAG,"onFailure",throwable);
+   }
+  });
