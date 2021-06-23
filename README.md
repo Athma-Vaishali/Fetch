@@ -29,9 +29,13 @@ Additional features:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+**Walkthrough 1**
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Athma-Vaishali/Fetch/blob/master/walkthrough_1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**Walkthrough 2**
+
+<img src='https://github.com/Athma-Vaishali/Fetch/blob/master/walkthrough_2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 - 
