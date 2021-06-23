@@ -5,12 +5,14 @@
 2. [User Stories](#User-Stories)
 3. [Video Walkthrough](#Video-Walkthrough)
 4. [Wireframes](#Wireframes)
-5. [Schema](#Schema)
+5. [Notes](#Notes)
 6. [Open-source libraries used](#Open-source-libraries-used)
+7. [Schema](#Schema)
 
 ## Overview
 ### Description
-The Application was created as part of Internship hiring process in Fetch Rewards. 
+   - The Application was created as part of Internship hiring process in Fetch Rewards. 
+   - Android app created in Java that retrieves the data from provided JSON
 
 ### App Logo
 <img src='https://github.com/Athma-Vaishali/Fetch/blob/master/fetch_icon.JPG' title='App Logo' />
@@ -36,9 +38,6 @@ Additional features:
 **Walkthrough 2**
 
 <img src='https://github.com/Athma-Vaishali/Fetch/blob/master/walkthrough_2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-## Notes
-- 
 
 ## Wireframes
 
