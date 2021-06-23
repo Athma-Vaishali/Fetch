@@ -3,10 +3,10 @@
 ## Table of Contents
 1. [Overview](#Overview)
 2. [User Stories](#User-Stories)
-3. [Video Walkthrough](#Video Walkthrough)
+3. [Video Walkthrough](#Video-Walkthrough)
 4. [Wireframes](#Wireframes)
 5. [Schema](#Schema)
-6. [Open-source libraries used](#Open-source libraries used)
+6. [Open-source libraries used](#Open-source-libraries-used)
 
 ## Overview
 ### Description
