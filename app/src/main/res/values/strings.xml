@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fetch</string>
+    <string name="sort_by_name">Sort by Name</string>
+    <string name="sort_by_id">Sort by ID</string>
+</resources>
